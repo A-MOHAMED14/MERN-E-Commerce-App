@@ -203,7 +203,7 @@ db.once("open", async () => {
       description:
         "Adventure-ready with a bright Always-On Retina display and lightweight titanium case. Features include Double Tap for quick actions, up to 36 hours of battery life (72 hours in low-power mode), precision dual-frequency GPS, and 86 dB siren for emergencies. It’s EN13319 certified for underwater use up to 40 m and includes safety features like Crash Detection and Emergency SOS. Enjoy seamless Siri integration and enhanced app experience with watchOS 10.",
       image: "apple-watch-ultra-2.jpg",
-      category: categories[3]._id,
+      category: categories[4]._id,
       price: 799.0,
       quantity: 325,
     },
@@ -212,7 +212,7 @@ db.once("open", async () => {
       description:
         "Adventure-ready with a rugged titanium casing and military-grade durability. Features a BioActiveSensor for accurate health tracking, Galaxy AI-powered Energy Score for fitness insights, and an emergency siren. Enjoy smooth performance with a powerful Exynos processor, up to 48 hours of battery life, and a Dual GPS system. Water-resistant up to 100 meters, fast wireless charging, and 32 GB of storage for apps and music. Pair with your Galaxy phone for hands-free calling and seamless app access.",
       image: "galaxy-watch-ultra.jpg",
-      category: categories[3]._id,
+      category: categories[4]._id,
       price: 599.0,
       quantity: 325,
     },
@@ -221,7 +221,7 @@ db.once("open", async () => {
       description:
         "Elevate your fitness with the Google Pixel Watch 3, featuring custom workouts, real-time guidance, and advanced motion stats. Enjoy a larger, brighter Actua display, offline Google Maps, and Google Pay. Battery life lasts a day, extendable to 36 hours with Battery Saver mode. Quick charging, safety features like fall detection, and access to Fitbit Premium workouts make it perfect for training smarter and staying connected.",
       image: "pixel-watch-3.jpg",
-      category: categories[3]._id,
+      category: categories[4]._id,
       price: 499.0,
       quantity: 325,
     },
@@ -230,7 +230,7 @@ db.once("open", async () => {
       description:
         "Gear up for any adventure with the Garmin fenix 8, featuring a bright 1.4” AMOLED display and durable construction. Track a variety of activities, monitor health metrics, and utilize PacePro technology for race prep. Enjoy up to 29 days of battery life in smartwatch mode, multi-band GPS for accurate navigation, and features like music storage and contactless payments. Built for toughness, it includes a flashlight for night runs and animated workout plans for fitness inspiration.",
       image: "garmin-fenix-8.jpg",
-      category: categories[3]._id,
+      category: categories[4]._id,
       price: 949.0,
       quantity: 325,
     },
