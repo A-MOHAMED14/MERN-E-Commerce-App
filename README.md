@@ -18,3 +18,23 @@ As a tech enthusiast, I want to browse and purchase various electronic products 
 - **Order Success Page**: After a successful purchase, users are shown an order success page and redirected to the home page.
 - **Responsive Design**: The application is fully responsive, providing a seamless experience across different devices.
 - **Admin Management**: Admins can seed product and category data into the database using a seeding script.
+
+## 🚀 Installation
+
+1. Clone the Repository:
+
+```sh
+git clone https://github.com/A-MOHAMED14/MERN-E-Commerce-App.git
+```
+
+2. Navigate to the Project Directory:
+
+```sh
+cd MERN-E-Commerce-App
+```
+
+3. Install dependencies:
+
+```sh
+npm install
+```
