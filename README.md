@@ -51,3 +51,19 @@ npm run dev
 
 - Use npm run dev for development, which starts the app in development mode with Vite's fast refresh using HMR.
 - Use npm run build to create a production build.
+
+## ⚒️ Technologies Used
+
+- **MongoDB**: NoSQL database for storing user, product, and order data.
+- **Express.js**: Back-end web framework for handling API requests and routing.
+- **React.js**: Front-end JavaScript library for building the user interface.
+- **Node.js**: JavaScript runtime for building the back-end server.
+- **GraphQL**: API query language for efficient data fetching and manipulation.
+- **Stripe**: Payment processing platform for handling secure transactions.
+- **JWT (JSON Web Token)**: Authentication mechanism for securing API requests.
+- **Apollo Client**: GraphQL client for managing queries and mutations in the front end.
+- **Vite**: Front-end build tool for fast development and production build setup.
+- **Concurrently**: Utility for running multiple npm scripts simultaneously (back-end and front-end).
+- **CSS**: Custom styling to create a modern and responsive user interface.
+- **Testing Library (React)**: Used for writing unit tests for the front-end components.
+  Vitest: A fast unit testing framework for the front end.
