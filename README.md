@@ -6,11 +6,11 @@
 
 TechHive is a full-stack e-commerce application built using the MERN stack (MongoDB, Express.js, React, and Node.js). The app features a responsive user interface, allowing customers to browse products by category, add items to their cart, and securely complete purchases. It includes authentication, cart management with local storage, and Stripe integration for payment processing. The application also provides an admin panel to manage products, categories, and user orders.
 
-## User Story
+## 📖 User Story
 
 As a tech enthusiast, I want to browse and purchase various electronic products such as phones, laptops, and accessories from an intuitive and responsive online store. I want a smooth shopping experience that includes adding products to my cart, adjusting quantities, and securely completing my order.
 
-## Acceptance Criteria
+## ✅ Acceptance Criteria
 
 - **Product Browsing**: Users can view a list of available products categorized by type (e.g., phones, laptops, monitors).
 - **Product Details**: Users can see detailed information about each product, including descriptions, price, and quantity available.
@@ -20,6 +20,20 @@ As a tech enthusiast, I want to browse and purchase various electronic products 
 - **Order Success Page**: After a successful purchase, users are shown an order success page and redirected to the home page.
 - **Responsive Design**: The application is fully responsive, providing a seamless experience across different devices.
 - **Admin Management**: Admins can seed product and category data into the database using a seeding script.
+
+## 🎥 Application Demo
+
+As you can see in the following animation, a user can select a product category, and the results will update to display the products that belong to that category:
+
+![Animation shows products grouped by their category.](./client/src/assets/demo-01.gif)
+
+The user can add items to the cart, remove items, and adjust the quantity of each product. The total cost is updated in real-time, as demonstrated in the following animation:
+
+![Animation demonstrates the process of adding items to the cart, removing items, and adjusting product quantities.](./client/src/assets/demo-02.gif)
+
+The user can view their order history, and once they have added items to the cart, they can click the checkout button, which will redirect them to Stripe's payment page as shown in the following animation:
+
+![Animation demonstrates the process of viewing order history and proceeding to the Stripe checkout page.](./client/src/assets/demo-03.gif)
 
 ## 🚀 Installation
 
