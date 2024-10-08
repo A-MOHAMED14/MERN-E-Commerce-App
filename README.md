@@ -38,3 +38,16 @@ cd MERN-E-Commerce-App
 ```sh
 npm install
 ```
+
+## 🏗️ Usage
+
+To start the application, run the following command:
+
+```sh
+npm run dev
+```
+
+### Notes
+
+- Use npm run dev for development, which starts the app in development mode with Vite's fast refresh using HMR.
+- Use npm run build to create a production build.
