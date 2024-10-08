@@ -8,11 +8,10 @@ import Auth from "../../utils/auth";
 import { useStoreContext } from "../../utils/GlobalState";
 import { TOGGLE_CART, ADD_MULTIPLE_TO_CART } from "../../utils/actions";
 import "./style.css";
-require("dotenv").config();
 
-const stripeAPIKey = require("stripe")(process.env.STRIPE_API_KEY);
-
-const stripePromise = loadStripe(stripeAPIKey);
+const stripePromise = loadStripe(
+  "pk_test_51Q563WP2bLVnTWcOwHjxNrhMsqfxjLwZlfPWexksZufUn4lG3OfpzL3HKAqCCSVr4mXdk4nx7xfSy5fREUeSM1PZ00eJJh4TUl"
+);
 
 const Cart = () => {
   const [state, dispatch] = useStoreContext();
@@ -78,7 +77,9 @@ const Cart = () => {
       <div className="close" onClick={toggleCart}>
         [close]
       </div>
-      <h2><strong>Shopping Cart</strong></h2> 
+      <h2>
+        <strong>Shopping Cart</strong>
+      </h2>
       {state.cart.length ? (
         <div>
           {state.cart.map((item) => (
@@ -97,11 +98,13 @@ const Cart = () => {
         </div>
       ) : (
         <div className="empty-cart">
-          <img src="../../public/images/empty-cart.png" alt="empty cart"/>
+          <img src="../../public/images/empty-cart.png" alt="empty cart" />
           <h4>
             <strong>Your Cart is Empty</strong>
           </h4>
-          <p>Explore our top tech products bee-fore you proceed to checkout... 🐝</p>
+          <p>
+            Explore our top tech products bee-fore you proceed to checkout... 🐝
+          </p>
         </div>
       )}
     </div>
