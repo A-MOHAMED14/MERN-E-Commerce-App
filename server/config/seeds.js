@@ -58,7 +58,7 @@ db.once("open", async () => {
       name: "Google Pixel 9",
       description:
         "The Google Pixel 9 features a 6.3-inch Actua Display with vibrant OLED and up to 2,700 nits brightness. It packs a powerful 50MP dual rear camera system with advanced photo editing tools and 4K video recording. Powered by the Google Tensor G4 chip and 12GB of RAM, it offers smooth performance and long battery life. With IP68 water resistance, a recycled aluminum frame, and seven years of updates, the Pixel 9 is both eco-friendly and secure. Enjoy seamless connectivity with 5G support and the latest Android 14 operating system.",
-      image: "pixel-9.png",
+      image: "pixel-9.jpg",
       category: categories[0]._id,
       price: 799.0,
       quantity: 1000,
@@ -67,13 +67,13 @@ db.once("open", async () => {
       name: "Google Pixel 9 Pro XL",
       description:
         "Experience cutting-edge technology with the Google Pixel 9 Pro XL. Featuring a stunning 6.8-inch LTPO OLED display with a 120 Hz refresh rate, this smartphone delivers vibrant visuals and smooth performance. Powered by the Google Tensor G4 processor and equipped with a triple rear camera system (50 MP wide, 48 MP ultrawide, 48 MP telephoto), capture stunning photos and 8K videos effortlessly. Enjoy all-day battery life with a 5,060 mAh battery and fast charging capabilities. With IP68 water resistance and seven years of software updates, the Pixel 9 Pro XL combines style, durability, and innovation.",
-      image: "pixel-9-pro-xl.png",
+      image: "pixel-9-pro-xl.jpg",
       category: categories[0]._id,
       price: 1099.0,
       quantity: 1000,
     },
     {
-      name: "APPLE MacBook Pro 14 inch - M3 Pro",
+      name: "APPLE MacBook Pro",
       description:
         "Experience unmatched performance with the M3 Pro chip featuring 11 CPU and 14 GPU cores. Enjoy stunning visuals on the 14 inch Liquid Retina XDR display with a 120 Hz refresh rate and up to 18 hours of battery life. Connect effortlessly with WiFi 6E, and enjoy superior audio with a six-speaker system. Unlock securely with Touch ID, and stay connected with multiple ports, including Thunderbolt 4 and HDMI. Ideal for editing, coding, and gaming.",
       image: "macbook-pro-14.jpg",
@@ -82,7 +82,7 @@ db.once("open", async () => {
       quantity: 500,
     },
     {
-      name: "APPLE MacBook Air 13.6 inch - M3 Chip",
+      name: "APPLE MacBook Air",
       description:
         "The MacBook Air is powered by the M3 chip, offering up to 1.6x faster performance than the M1. Its 13 inch Liquid Retina display showcases a billion colors, perfect for creative projects and movie nights. Enjoy up to 18 hours of battery life, a fanless design, and a lightweight aluminum body. Features include a 1080p FaceTime HD camera, WiFi 6E, Touch ID for secure logins, and two Thunderbolt 4 ports. Experience immersive audio with a four-speaker sound system.",
       image: "macbook-air-13.6.jpg",
@@ -118,7 +118,7 @@ db.once("open", async () => {
       quantity: 500,
     },
     {
-      name: `ACER KB242YEbi Full HD 23.8" IPS LCD Monitor`,
+      name: `ACER Full HD Monitor`,
       description:
         "Experience vibrant colors and wide viewing angles on the Full HD 23.8 inch IPS display. With a 100 Hz refresh rate and AMD FreeSync, enjoy smooth gameplay and stunning visuals for work or entertainment. Easily adjust the tilt or mount it to save space.",
       image: "acer-monitor-24.jpg",
@@ -127,7 +127,7 @@ db.once("open", async () => {
       quantity: 250,
     },
     {
-      name: `LG 27MS550-B.AEK Full HD 27" IPS LCD Monitor`,
+      name: `LG Full HD Monitor`,
       description:
         "Enhance your viewing experience with the 27 inch IPS display featuring Black Stabilizer for better detail in dark scenes. Eye care features like Flicker Safe and Reader Mode keep your eyes comfortable. Easily adjust settings with OnScreen Control, and mount it to save desk space.",
       image: "lg-monitor-27.jpg",
@@ -136,7 +136,7 @@ db.once("open", async () => {
       quantity: 250,
     },
     {
-      name: `SAMSUNG LS34C500GAUXXU Wide Quad HD 34" VA LED Monitor`,
+      name: `SAMSUNG Ultrawide Monitor`,
       description:
         "Boost your productivity with this ultra-wide 34 inch monitor featuring WQHD resolution for sharp details and vibrant colors. Intelligent Eye Care tech ensures comfortable viewing, while AMD FreeSync and a 100 Hz refresh rate deliver smooth gaming. Multiple ports and a borderless design make it ideal for multitasking and multi-monitor setups.",
       image: "samsung-ultrawide.jpg",
@@ -145,7 +145,7 @@ db.once("open", async () => {
       quantity: 250,
     },
     {
-      name: `LG UltraWide 34WQ75C-B.AEK Quad HD 34" Curved IPS LCD Monitor`,
+      name: `LG UltraWide Curved Monitor`,
       description:
         "Enhance your multitasking with this curved UltraWide QHD monitor, featuring vibrant colors and 99% sRGB coverage for content creation. Enjoy immersive HDR10 visuals and MaxxAudio speakers. With USB Type-C for video and power delivery, plus multiple ports for easy connectivity, it’s perfect for any workspace.",
       image: "lg-curved.jpg",
@@ -154,7 +154,7 @@ db.once("open", async () => {
       quantity: 250,
     },
     {
-      name: `BENQ PD2725U 4K Ultra HD 27" IPS Monitor`,
+      name: `BENQ 4K Monitor`,
       description:
         "Bring your designs to life with this 4K monitor featuring AQ Colour technology for vivid color reproduction. With 95% P3 coverage and HDR support, enjoy superb color accuracy for your projects. Multiple connectivity options, including Thunderbolt 3, and a built-in KVM switch make it perfect for multitasking. Eye care features ensure comfort during long work sessions.",
       image: "benq-4k.jpg",
