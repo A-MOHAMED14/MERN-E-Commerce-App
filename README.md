@@ -1,5 +1,7 @@
 # MERN E-Commerce App
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 ## Description
 
 TechHive is a full-stack e-commerce application built using the MERN stack (MongoDB, Express.js, React, and Node.js). The app features a responsive user interface, allowing customers to browse products by category, add items to their cart, and securely complete purchases. It includes authentication, cart management with local storage, and Stripe integration for payment processing. The application also provides an admin panel to manage products, categories, and user orders.
@@ -92,3 +94,7 @@ git push origin feature/your-feature-name
 ```
 
 5. Open a pull request to the main repository, describing your changes in detail.
+
+## 📄 License
+
+This project is licensed under the MIT License. You are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, provided that the original copyright notice and permission notice are included in all copies or substantial portions of the software. For more details, see the MIT [LICENSE](https://opensource.org/licenses/MIT) file.
